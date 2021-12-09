@@ -1,0 +1,10 @@
+#!/bin/bash
+clear
+
+sudo add-apt-repository ppa:hluk/copyq -y
+sudo apt update
+sudo apt install copyq -y
+clear
+read -p "Installation is complete.Press enter to exit" nothing
+clear
+
